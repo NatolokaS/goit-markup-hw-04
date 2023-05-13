@@ -56,10 +56,6 @@ img {
 
 /* ===============Components=============== */
 
-.title {
-  line-height: 1.1;
-}
-
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -283,12 +279,12 @@ img {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-dark);
   margin-bottom: 72px;
+  line-height: 1.1;
 }
 
 .list-services {
@@ -397,6 +393,7 @@ img {
   color: var(--color-subtle-text);
   border-radius: 4px;
   padding: 16px 32px;
+  height: 100%;
 }
 
 .customers-link-item {
@@ -408,6 +405,7 @@ img {
 .customer-link:hover,
 .customer-link:focus {
   border: 1px solid var(--color-pressed);
+  color: var(--color-pressed);
 }
 
 .customer-link:hover .customer-icon,
